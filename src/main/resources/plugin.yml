@@ -1,0 +1,6 @@
+name: VSMP
+version: '${project.version}'
+main: blake_jh.vsmp.VSMP
+api-version: 1.19
+authors: [ Blake_JH ]
+description: A plugin developed by Blake_JH for Vitalize SMP.
