@@ -4,3 +4,9 @@ main: blake_jh.vsmp.VSMP
 api-version: 1.19
 authors: [ Blake_JH ]
 description: A plugin developed by Blake_JH for Vitalize SMP.
+commands:
+  store:
+    description: sends the url to the server store to the the command sender.
+    usage: /store
+    aliases: store
+    permission: vitalize.store
