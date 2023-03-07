@@ -10,3 +10,15 @@ commands:
     usage: /store
     aliases: store
     permission: vitalize.store
+  announce:
+    description: allows the sender of the command to announce strings of text.
+    usage: /announce
+    aliases: announce
+    permission: vitalize.announce
+  clearchat:
+    description: allows the sender of the command to clear the chat.
+    usage: /clearchat
+    aliases: clearchat
+    permission: vitalize.clearchat
+
+
