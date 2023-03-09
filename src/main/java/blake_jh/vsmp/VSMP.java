@@ -1,6 +1,7 @@
 package blake_jh.vsmp;
 
 import blake_jh.commands.Announce;
+import blake_jh.commands.Boost;
 import blake_jh.commands.Clearchat;
 import blake_jh.commands.Store;
 import org.bukkit.Bukkit;
@@ -15,6 +16,7 @@ public final class VSMP extends JavaPlugin {
         getCommand("store").setExecutor(new Store());
         getCommand("announce").setExecutor(new Announce());
         getCommand("clearchat").setExecutor(new Clearchat());
+        getCommand("boost").setExecutor(new Boost(this));
 
     }
 

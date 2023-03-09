@@ -20,5 +20,11 @@ commands:
     usage: /clearchat
     aliases: clearchat
     permission: vitalize.clearchat
+  boost:
+    description: allows the sender to boost airdrops.
+    usage: /boost
+    aliases: boost
+    permission: vitalize.boost
+
 
 
